@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingCategoryDef>
+      <defName>TwoHanded</defName>
+      <label>two handed</label>
+      <parent>Weapons</parent>
+    </ThingCategoryDef>
+
+  <JobDef>
+    <defName>BM_ReloadOtherPawns</defName>
+    <driverClass>BM_HeavyWeapon.JobDriver_ReloadOtherPawns</driverClass>
+    <reportString>Reloading TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+
+	<!---->
+	<ThingCategoryDef>
+		<defName>GW_TwoHanded</defName>
+		<label>Two Handed</label>
+		<parent>Weapons</parent>
+	</ThingCategoryDef>
+	<!---->
+	<ThingCategoryDef>
+		<defName>GW_Shield</defName>
+		<label>Shield</label>
+		<parent>Weapons</parent>
+	</ThingCategoryDef>
+	<!---->
+</Defs>
