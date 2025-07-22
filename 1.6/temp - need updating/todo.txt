@@ -1,0 +1,1 @@
+eridanus_quests - has unupdated debug option that bork debug menu, need updating
