@@ -13,4 +13,5 @@
     <reportString>closing garage door.</reportString>
     <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
   </JobDef>
+  
 </Defs>
